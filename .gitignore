@@ -1,2 +1,26 @@
-# Git
-.gitattributes
+# Python
+__pycache__/
+*.pyzw
+*.pyc
+*.pyw
+*.pyz
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Inno setup
+.output/
+*.~is
+
+# Custom "tags"
+*_remove_me_later*
+*_ignore_me*
+*_not_ready*
+*cache*
+*copy*
+*test*
+
+# Misc items
+*.zip
